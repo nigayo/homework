@@ -9,7 +9,7 @@ function sumOdd(n){
   };return sum;
 };
 // 임의의 수 n까지의 홀수의 합을 구하는 함수는 구했는데 그냥 홀수의 합을 구하는 함수...??
-
+___
 # 2.1~100 중 7의 배수를 구하는 함수
 function chkseven(){
   for(var i=1; i<=100; i++){
@@ -18,7 +18,7 @@ function chkseven(){
     };
   };
 };
-
+___
 # 3.삼각형 넓이 구하는 함수
 function getTriArea(){
   arguments.length=2;
@@ -28,7 +28,7 @@ function getTriArea(){
   }var triArea=recArea*1/2;
   return triArea;
 }
-
+___
 # 4. 1 부터 n까지 더하는 함수
 function getSum(n){
   var sum=0
@@ -36,7 +36,7 @@ function getSum(n){
     sum = sum+i;
   }return sum;
 }
-
+___
 # 5. 짝수만 출력하는 함수
 var arr = [1,2,3,100,40,50,88,23,"23"];
 function getEven(arry){
@@ -46,7 +46,7 @@ function getEven(arry){
     }
   }
 }
-
+___
 # 6. 문자열만 출력하는 함수
 var arr = [1,2,3,100,40,"50",88,23,"23"];
 function getStr(arry){
@@ -56,7 +56,7 @@ function getStr(arry){
     }
   }
 }
-
+___
 # 7. 10 보다 크고 80 보다 작은 숫자만 새로운 배열로 반환하는 함수
 var arr = [1,92,53,100,40,"50",88,23,"23"];
 function getArry(arry){
@@ -68,7 +68,7 @@ function getArry(arry){
   }return newArry;
 }
 getArry(arr);
-
+___
 # 8. 10 보다 크고 80 보다 작은 숫자를 제외한 배열로 변경
 var arr = [1,2,3,100,40,"50",88,23,"23"];
 function getArry(arry){
@@ -80,7 +80,7 @@ function getArry(arry){
   }return newArry;
 }
 getArry(arr);
-
+___
 # 9. 배열 원소 앞에 "kim" 이라는 문자열을 추가해 새로운 배열 반환
 var arr = ["jehee", "hewon", "miji", "jungho"];
 var newArr = appendKim(arr);
@@ -92,7 +92,7 @@ function appendKim(arry){
   }return newArry;
 }
 console.log(newArr);
-
+___
 # 10. url 만 뽑아서 새로운 배열로 만들어 반환하는 함수
 var data = [
 {"name":"youtube", "url":"www.youtube.com","since":2000},
@@ -107,7 +107,7 @@ function getUrl(arry){
   }return newArry;
 }
 getUrl(data);
-
+___
 # 11. 출력결과가 html 이 나와야 하는데 css가 나오는 이유
 name = "javascript";
 function a() {
