@@ -5,6 +5,7 @@ array.filter(function(currentValue, index, arr), thisValue)
 // 배열 안의 각각의 원소마다 함수를 적용한 후 그 결과값을 리턴하는 함수
 ___
 #example
+```javascript
 <!DOCTYPE html>
 <html>
 <body>
@@ -29,3 +30,4 @@ function myFunction() {
 
 </body>
 </html>
+___
