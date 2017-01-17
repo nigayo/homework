@@ -72,10 +72,12 @@ ___
 # 7. 10 보다 크고 80 보다 작은 숫자만 새로운 배열로 반환하는 함수
 ```javascript
 var arr = [1,92,53,100,40,"50",88,23,"23"];
+var maxNum = 80
+var minNum = 10
 function getArry(arry){
   newArry=[];
   for(var i=0; i<arry.length; i++){
-    if((arry[i]>10) & (arry[i]<80)){
+    if((arry[i]>minNum) & (arry[i]<maxNum)){
       newArry.push(arry[i]);
     }
   }return newArry;
@@ -86,10 +88,13 @@ ___
 # 8. 10 보다 크고 80 보다 작은 숫자를 제외한 배열로 변경
 ```javascript
 var arr = [1,2,3,100,40,"50",88,23,"23"];
+var maxNum = 80
+var minNum = 10
+
 function getArry(arry){
   newArry=[];
   for(var i=0; i<arry.length; i++){
-    if(!(arry[i]>10 & arry[i]<80)){
+    if(!(arry[i]>minNum & arry[i]<maxNum)){
       newArry.push(arry[i]);
     }
   }return newArry;
