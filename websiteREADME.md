@@ -1,5 +1,5 @@
 # example 1
-```javascript
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,9 +44,11 @@
   </article>
 </body>
 </html>
-___
+
+```
+
 # example2
-```javascript
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,4 +87,4 @@ ___
   </article>
 </body>
 </html>
-___
+```
